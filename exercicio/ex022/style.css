@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color: #d193b6;
+
+}
+.container-formulario{
+    width: 700px;
+    margin:auto;
+    height: 800px;
+    text-align: center;
+    line-height: 75px;
+    border: 2px solid;
+    background-color: #e4BED4;
+
+
+}
+
+.container-titulo{
+    padding: 40px;
+    /* margin-left: 150px; */
+    font: normal 600 3.6em 'Merriweather', serif;
+    color: #792c57;
+}
+
+.container-input{
+    padding: 6px;
+    height: 25px;
+    width: 500px;
+    border: 2px solid #792c57;
+    font: italic 300 1em "Merriweather", serif;
+
+    
+}
+.container-input::placeholder{
+    color: #792c57;
+}
+.container-texto{
+    font: italic 600 1.6em "Merriweather", serif;
+    color: #792c57;
+
+}
+
+.container-botao{
+    padding: 8px;
+    width: 200px;
+    /* margin-left: 200px; */
+    border: 2px solid;
+    font: italic 600 1.06em "Merriweather", serif;  
+    background-color: #c193ad;
+    color: d193b6;
+
+
+}
+
+.container-botao:active{
+    background-color: #d193b6;
+}

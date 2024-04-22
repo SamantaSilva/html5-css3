@@ -1,0 +1,21 @@
+img{
+    background-color: rgb(136, 222, 222);
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1{
+  color: aliceblue;
+  padding: 10px;
+}
+
+.curso{
+    color:  rgb(136, 222, 222);
+    text-decoration: none;
+
+
+}
