@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 80px;
+            
+
+        }
+        table{
+            margin: auto;
+            width: 400px;
+            height: 250px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        thead{
+            background-color: rgb(155, 156, 156);
+            color: white;
+        }
+
+        caption{
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 10px;
+            text-transform: uppercase;
+            color: rgb(87, 86, 86);
+
+        }
+        .media{
+            background-color: rgb(155, 156, 156);
+            color: white;
+
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            
+        <tr>
+          <th rowspan="2" scope="col">Area</th>  
+          <th rowspan="2" scope="col">disciplinas</th>
+          <th colspan="2" scope="rowgroup">notas</th>
+          <th rowspan="2" >media</th>
+        </tr>
+        <tr>
+            <th scope="col">nota 1</th>
+            <th scope="col">nota 2</th>
+        </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <th rowspan="4" scope="rowgroup" >exatas</th>
+                <td>matematica</td>
+                <td>10</td>
+                <td>8.0</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>4.0</td>
+                <td>6.0</td>
+                <td>7.0</td>
+            </tr>
+            <tr>
+                <td>quimica</td>
+                <td>3.0</td>
+                <td>7.0</td>
+                <td>6.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>8.0</td>
+                <td>6.0</td>
+                <td>7.0</td>
+            </tr>
+
+            <tr class="media">
+                <th colspan="4" scope="row">Medias exatas</th>
+                <td>7.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" scope="rowgroup">humanas</th>
+                <td>historia</td>
+                <td>7.0</td>
+                <td>9.0</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>geografia</td>
+                <td>9.0</td>
+                <td>9.0</td>
+                <td>10</td>
+            </tr>
+            <tr class="media">
+                <th colspan="4" scope="row" >Medias humanas</th>
+                <td>9.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
